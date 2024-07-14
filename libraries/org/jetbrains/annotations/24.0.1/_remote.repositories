@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Jul 14 12:45:43 UTC 2024
+annotations-24.0.1.jar>central=
+annotations-24.0.1.pom>central=
+annotations-24.0.1.pom>https\://repo.maven.apache.org/maven2/=
