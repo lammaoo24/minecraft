@@ -1,0 +1,7 @@
+--2024-07-14 11:56:12--  https://www.patreon.com/file?h=104200466
+Resolving www.patreon.com (www.patreon.com)... 104.16.25.14, 104.16.24.14, 2606:4700::6810:190e, ...
+Connecting to www.patreon.com (www.patreon.com)|104.16.25.14|:443... connected.
+HTTP request sent, awaiting response... 400 OK
+Cookie coming from www.patreon.com attempted to set domain to patreon-marketing.pages.dev
+2024-07-14 11:56:13 ERROR 400: OK.
+

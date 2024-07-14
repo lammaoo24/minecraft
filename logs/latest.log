@@ -1,0 +1,241 @@
+[12:52:52] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/DriveBackupV2.jar'...
+[12:52:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/DriveBackupV2.jar' in 6499ms.
+[12:53:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:53:04] [ServerMain/INFO]: Loaded 1175 recipes
+[12:53:04] [ServerMain/INFO]: Loaded 1276 advancements
+[12:53:04] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[12:53:04] [Server thread/INFO]: Loading properties
+[12:53:04] [Server thread/INFO]: This server is running Paper version 1.20.6-148-ver/1.20.6@20f5165 (2024-07-02T15:37:33Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[12:53:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:53:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:53:05] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[12:53:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[12:53:06] [Server thread/INFO]: Default game type: SURVIVAL
+[12:53:06] [Server thread/INFO]: Generating keypair
+[12:53:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:53:06] [Server thread/INFO]: Using epoll channel type
+[12:53:06] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:53:06] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:53:06] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loading 5 libraries... please wait
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-text-minimessage/4.13.1/adventure-text-minimessage-4.13.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/org/spongepowered/configurate-hocon/4.1.2/configurate-hocon-4.1.2.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/org/spongepowered/configurate-core/4.1.2/configurate-core-4.1.2.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/io/leangen/geantyref/geantyref/1.3.11/geantyref-1.3.11.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/com/google/errorprone/error_prone_annotations/2.6.0/error_prone_annotations-2.6.0.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/com/typesafe/config/1.4.1/config-1.4.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/org/spongepowered/configurate-yaml/4.1.2/configurate-yaml-4.1.2.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/cloud/commandframework/cloud-paper/1.8.1/cloud-paper-1.8.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/cloud/commandframework/cloud-bukkit/1.8.1/cloud-bukkit-1.8.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/cloud/commandframework/cloud-core/1.8.1/cloud-core-1.8.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/cloud/commandframework/cloud-services/1.8.1/cloud-services-1.8.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/cloud/commandframework/cloud-brigadier/1.8.1/cloud-brigadier-1.8.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/cloud/commandframework/cloud-tasks/1.8.1/cloud-tasks-1.8.1.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/org/checkerframework/checker-qual/3.28.0/checker-qual-3.28.0.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[12:53:07] [Server thread/INFO]: [SpigotLibraryLoader] [Networks] Loaded library /workspaces/minecraft/libraries/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar
+[12:53:08] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.1
+[12:53:08] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.1 is now loaded. Registering protocol transformers and injecting...
+[12:53:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[12:53:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[12:53:09] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[12:53:09] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[12:53:10] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
+[12:53:10] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.1.5
+[12:53:10] [Server thread/INFO]: [TreeFella] Loading server plugin TreeFella v1.2
+[12:53:10] [Server thread/INFO]: [InteractionVisualizer] Loading server plugin InteractionVisualizer v1.18.10.0
+[12:53:10] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
+[12:53:10] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.65
+[12:53:10] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[12:53:12] [Server thread/INFO]: [Networks] Loading server plugin Networks v2.1.9
+[12:53:12] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.9.0
+[12:53:12] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.16
+[12:53:12] [Server thread/INFO]: [ToolStats] Loading server plugin ToolStats v1.7.2
+[12:53:12] [Server thread/INFO]: [DriveBackupV2] Loading server plugin DriveBackupV2 v1.6.3
+[12:53:12] [Server thread/INFO]: [Parties] Loading server plugin Parties v3.2.14
+[12:53:12] [Server thread/INFO]: [Parties] Loading libraries of Parties v3.2.14, this may take a while
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for jar-relocator
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for asm
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for asm-commons
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for gson
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-core
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for geantyref
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for caffeine
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-stringtemplate4
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for ST4
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for antlr-runtime
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-sqlobject
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for slf4j-api
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for slf4j-simple
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for HikariCP
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for mariadb-java-client
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for mysql-connector-j
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for postgresql
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for h2
+[12:53:13] [Server thread/INFO]: [Parties] Verifying checksum for exp4j
+[12:53:13] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.0.6 b35
+[12:53:13] [Server thread/INFO]: [LevelledMobs] Loading commands
+[12:53:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:53:13] [Server thread/INFO]: [Networks] Enabling Networks v2.1.9
+[12:53:13] [Server thread/INFO]: [Networks] Loading config files...
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Successfully loaded configuration file networks.conf on root path networks
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Successfully updated config file networks.conf
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Successfully loaded configuration file features.conf on root path networks.features
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Successfully updated config file features.conf
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Successfully loaded configuration file en.yml on root path networks.lang.en
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Successfully updated config file en.yml
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Successfully loaded configuration file de.yml on root path networks.lang.de
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Successfully updated config file de.yml
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Launched using language order: [en, de]
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Successfully loaded configuration file recipes.conf on root path networks.recipes
+[12:53:13] [Server thread/INFO]: [Networks] [QC] Successfully updated config file recipes.conf
+[12:53:13] [Server thread/INFO]: [Networks] Initialiased Crafting Recipes
+[12:53:13] [Server thread/INFO]: [Networks] [Manuals] Successfully loaded configuration file en.yml on root path networks.manual.en
+[12:53:13] [Server thread/WARN]: [Networks] "Networks v2.1.9" has registered a listener for com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent on method "public void cloud.commandframework.paper.PaperBrigadierListener.onCommandRegister(com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent<com.destroystokyo.paper.brigadier.BukkitBrigadierCommandSource>)", but the event is Deprecated. "This event has been superseded by the Commands API and will be removed in a future release. Listen to LifecycleEvents.COMMANDS instead."; please notify the authors [Quantum625].
+[12:53:13] [Server thread/WARN]: [Networks] "Networks v2.1.9" has registered a listener for com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent on method "public void cloud.commandframework.paper.PaperBrigadierListener.onCommandRegister(com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent<com.destroystokyo.paper.brigadier.BukkitBrigadierCommandSource>)", but the event is Deprecated. "This event has been superseded by the Commands API and will be removed in a future release. Listen to LifecycleEvents.COMMANDS instead."; please notify the authors [Quantum625].
+[12:53:13] [Server thread/INFO]: [Networks] Loading 0 networks..
+[12:53:13] [Server thread/INFO]: [Networks] All networks loaded.
+[12:53:13] [Server thread/INFO]: [Networks] 
+        _   __     __                      __                ___    ___
+       / | / /__  / /__      ______  _____/ /_______   _   _|__ \ /_  /
+      /  |/ / _ \/ __/ | /| / / __ \/ ___/ //_/ ___/  | | / /_/ /  / / 
+     / /|  /  __/ /_ | |/ |/ / /_/ / /  / ,< (__  )   | |/ / __/_ / /  
+    /_/ |_/\___/\__/ |__/|__/\____/_/  /_/|_/____/    |___/____(_)_/   
+
+[12:53:13] [Server thread/INFO]: Preparing level "world"
+[12:53:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:53:15] [Server thread/INFO]: Time elapsed: 1105 ms
+[12:53:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:53:15] [Server thread/INFO]: Time elapsed: 234 ms
+[12:53:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:53:15] [Server thread/INFO]: Time elapsed: 139 ms
+[12:53:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.1
+[12:53:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
+[12:53:15] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
+[12:53:15] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.1.5
+[12:53:16] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[12:53:17] [Server thread/INFO]: [AuraSkills] Loaded 126 config options in 35 ms
+[12:53:17] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
+[12:53:17] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
+[12:53:17] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[12:53:17] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[12:53:17] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[12:53:18] [Server thread/INFO]: [TreeFella] Enabling TreeFella v1.2
+[12:53:18] [Server thread/INFO]: [InteractionVisualizer] Enabling InteractionVisualizer v1.18.10.0
+[12:53:21] [Server thread/INFO]: [InteractionVisualizer] Opened Sqlite database successfully
+[12:53:22] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been enabled!
+[12:53:22] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
+[12:53:22] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.65
+[12:53:22] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[12:53:22] [Server thread/INFO]: [GrimAC] Registering packets...
+[12:53:22] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[12:53:23] [Server thread/INFO]: [GrimAC] [ACF] Enabled Asynchronous Tab Completion Support!
+[12:53:23] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.9.0
+[12:53:23] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[12:53:23] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[12:53:23] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.16
+[12:53:23] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.6-R0.1
+[12:53:23] [Server thread/INFO]: [voicechat] Compatibility version 18
+[12:53:23] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[12:53:23] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[12:53:23] [Server thread/INFO]: [ToolStats] Enabling ToolStats v1.7.2
+[12:53:23] [Server thread/INFO]: [DriveBackupV2] Enabling DriveBackupV2 v1.6.3
+[12:53:24] [Server thread/INFO]: [DriveBackupV2] Config loaded!
+[12:53:24] [Server thread/INFO]: [DriveBackupV2] Scheduling a backup to run every 60 minutes
+[12:53:24] [Server thread/INFO]: [DriveBackupV2] Metrics started
+[12:53:24] [Server thread/INFO]: [Parties] Enabling Parties v3.2.14
+[12:53:24] [Server thread/INFO]: [Parties] Initializing Parties v3.2.14
+[12:53:25] [Server thread/INFO]: [Parties] Parties v3.2.14 enabled
+[12:53:25] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.0.6 b35
+[12:53:25] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[12:53:25] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.20.6 for nametag support
+[12:53:25] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[12:53:25] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[12:53:25] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[12:53:25] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[12:53:25] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[12:53:25] [Server thread/INFO]: [LevelledMobs] Current rules hash: 672a84db51a2f7ad99fc499cf891df75e70a7614c363a014788783d2a5563e64
+[12:53:25] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[12:53:25] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[12:53:25] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[12:53:25] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[12:53:25] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 306ms)
+[12:53:25] [Server thread/INFO]: Running delayed init tasks
+[12:53:25] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[12:53:25] [Craft Scheduler Thread - 1 - InteractionVisualizer/INFO]: [InteractionVisualizer] Downloading and extracting latest Language files...
+[12:53:25] [Craft Scheduler Thread - 0 - DriveBackupV2/INFO]: [DriveBackupV2] Checking for updates...
+[12:53:25] [Craft Scheduler Thread - 4 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
+[12:53:26] [parties-pool-0/INFO]: [Parties] Parties v3.2.14 found a new version: 3.2.15
+[12:53:26] [Craft Scheduler Thread - 5 - ToolStats/INFO]: [ToolStats] You are running the latest version.
+[12:53:26] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 308 total sources
+[12:53:26] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[12:53:26] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[12:53:26] [Craft Scheduler Thread - 1 - InteractionVisualizer/INFO]: [InteractionVisualizer] Sucessfully downloaded the latest Language files!
+[12:53:26] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[12:53:26] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[12:53:26] [Server thread/INFO]: Done (22.320s)! For help, type "help"
+[12:53:26] [Server thread/INFO]: Timings Reset
+[12:53:26] [Server thread/INFO]: [voicechat] Loading plugins
+[12:53:26] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[12:53:26] [Server thread/INFO]: [voicechat] Initializing plugins
+[12:53:26] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[12:53:26] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[12:58:37] [Server thread/INFO]: Stopping server
+[12:58:37] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.0.6 b35
+[12:58:37] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[12:58:37] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[12:58:37] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 2ms)
+[12:58:37] [Craft Scheduler Thread - 2 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[12:58:37] [Server thread/INFO]: [Parties] Disabling Parties v3.2.14
+[12:58:37] [Server thread/INFO]: [Parties] Disabling Parties
+[12:58:37] [Server thread/INFO]: [Parties] Parties disabled
+[12:58:37] [Server thread/INFO]: [DriveBackupV2] Disabling DriveBackupV2 v1.6.3
+[12:58:37] [Server thread/INFO]: [DriveBackupV2] Stopping plugin!
+[12:58:37] [Server thread/INFO]: [ToolStats] Disabling ToolStats v1.7.2
+[12:58:37] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.16
+[12:58:37] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.7.9.0
+[12:58:37] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[12:58:37] [Server thread/INFO]: [Networks] Disabling Networks v2.1.9
+[12:58:37] [Server thread/INFO]: [GrimAC] Disabling GrimAC v2.3.65
+[12:58:37] [Server thread/INFO]: [GrimAC] Terminating PacketEvents...
+[12:58:37] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
+[12:58:37] [Server thread/INFO]: [InteractionVisualizer] Disabling InteractionVisualizer v1.18.10.0
+[12:58:37] [Server thread/INFO]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
+[12:58:37] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been disabled!
+[12:58:37] [Server thread/INFO]: [TreeFella] Disabling TreeFella v1.2
+[12:58:37] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.1.5
+[12:58:37] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.1
+[12:58:37] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.1
+[12:58:37] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[12:58:37] [Craft Scheduler Thread - 9 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[12:58:37] [Server thread/INFO]: Saving players
+[12:58:37] [Server thread/INFO]: Saving worlds
+[12:58:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[12:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:58:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[12:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:58:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:58:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:58:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:58:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:58:38] [Server thread/INFO]: Flushing Chunk IO
+[12:58:38] [Server thread/INFO]: Closing Thread Pool
+[12:58:38] [Server thread/INFO]: Closing Server

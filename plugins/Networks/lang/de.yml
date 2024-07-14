@@ -1,0 +1,180 @@
+prefix: '<green>[Networks]<reset>  '
+version: |-
+    <dark_green>Networks Plugin</dark_green> von <yellow>Quantum625</yellow>
+    <aqua>Version: </aqua><1>
+help: "\n <bold><dark_green>          Networks v<1> - Help Menu \n============================================</dark_green></bold>\n\
+    \n<click:suggest_command:/net create>/net create (id)</click> - <yellow>Erstellt\
+    \ ein neues Netzwerk</yellow> \n<click:suggest_command:/net rename>/net rename\
+    \ (id)</click> - <yellow>Ein Netzwerk umbenennen</yellow> \n<click:suggest_command:/net\
+    \ delete>/net delete (id)</click> - <yellow>Ein Netzwerk löschen</yellow> \n \n\
+    <click:suggest_command:/net select>/net select (id)</click> - <yellow>Ein Netzwerk\
+    \ auswählen</yellow> \n \n<click:suggest_command:/net list>/net list</click> -\
+    \ <yellow>Alle eigenen Netzwerke auflisten</yellow> \n<click:suggest_command:/net\
+    \ listall>/net listall</click> - <yellow>Alle Netzwerke auf dem Server auflisten</yellow>\
+    \ \n<click:suggest_command:/net list>/net list (player)</click> - <yellow>Alle\
+    \ Netzwerke eines anderen Spielers auflisten</yellow> \n \n<click:suggest_command:/net\
+    \ user add>/net user add (player)</click> - <yellow>Gibt einem Spieler Zugriff\
+    \ auf dein Netzwerk</yellow> \n<click:suggest_command:/net user remove>/net user\
+    \ remove (player)</click> - <yellow>Entziehe einem Spieler Rechte auf dein Netzwerk</yellow>\
+    \ \n \n<click:suggest_command:/net items>/net items</click> - <yellow>Listet alle\
+    \ Items in deinem Netzwerk nach Häufgkeit auf</yellow> \n<click:suggest_command:/net\
+    \ view>/net view</click> - <yellow>Öffnet ein Menü, mit allen deinen Items</yellow>\
+    \ \n \n<click:suggest_command:/net merge>/net merge (net1) (net2)</click> - <yellow>Ü\
+    berträgt alle Komponenten von net2 in net1 hinein</yellow> \n \n<blue><click:run_command:/net\
+    \ manual>Öffne das Networks Nutzerhandbuch</click></blue> \n "
+help.admin: "\n <bold><dark_green>          Networks v<1> - Help Menu \n============================================</dark_green></bold>\n\
+    \n<click:suggest_command:/net data save>/net data save</click> - <yellow>Alle\
+    \ Netzwerke speichern</yellow> \n<click:suggest_command:/net data reload>/net\
+    \ data reload</click> - <yellow>Lädt die Konfigurationsdateien neu</yellow> \n\
+    \ \n<click:suggest_command:/net create>/net create (id)</click> - <yellow>Erstellt\
+    \ ein neues Netzwerk</yellow> \n<click:suggest_command:/net rename>/net rename\
+    \ (id)</click> - <yellow>Ein Netzwerk umbenennen</yellow> \n<click:suggest_command:/net\
+    \ delete>/net delete (id)</click> - <yellow>Ein Netzwerk löschen</yellow> \n \n\
+    <click:suggest_command:/net select>/net select (id)</click> - <yellow>Ein Netzwerk\
+    \ auswählen</yellow> \n \n<click:suggest_command:/net list>/net list</click> -\
+    \ <yellow>Alle eigenen Netzwerke auflisten</yellow> \n<click:suggest_command:/net\
+    \ listall>/net listall</click> - <yellow>Alle Netzwerke auf dem Server auflisten</yellow>\
+    \ \n<click:suggest_command:/net list>/net list (player)</click> - <yellow>Alle\
+    \ Netzwerke eines anderen Spielers auflisten</yellow> \n \n<click:suggest_command:/net\
+    \ user add>/net user add (player)</click> - <yellow>Gibt einem Spieler Zugriff\
+    \ auf dein Netzwerk</yellow> \n<click:suggest_command:/net user remove>/net user\
+    \ remove (player)</click> - <yellow>Entziehe einem Spieler Rechte auf dein Netzwerk</yellow>\
+    \ \n \n<click:suggest_command:/net items>/net items</click> - <yellow>Listet alle\
+    \ Items in deinem Netzwerk nach Häufgkeit auf</yellow> \n<click:suggest_command:/net\
+    \ view>/net view</click> - <yellow>Öffnet ein Menü, mit allen deinen Items</yellow>\
+    \ \n \n<click:suggest_command:/net merge>/net merge (net1) (net2)</click> - <yellow>Ü\
+    berträgt alle Komponenten von net2 in net1 hinein</yellow> \n \n<blue><click:run_command:/net\
+    \ manual>Öffne das Networks Nutzerhandbuch</click></blue> \n "
+data.reload.networks: <prefix>Netzwerke wurden neu geladen
+data.save.networks: <prefix>Netzwerke wurden gespeichert
+data.reload.config: <prefix>Konfiguration neu geladen
+data.save.config: <prefix>Konfiguration gespeichert
+create.success: <prefix>Netzwerk <green><1><white> wurde erstellt.
+create.exists: <prefix><yellow>Es gibt bereits ein Netzwerk mit diesem Namen, bitte
+    wähle einen anderen Namen!
+delete.success: <prefix>Netzwerk <green><1><white> wurde gelöscht.
+delete.confirm: <prefix>Bist du dir sicher, dass du Netzwerk <1> löschen möchtest?
+    Bitte bestätige mit <yellow>/net delete <1> confirm
+create.illegal_name: <prefix><red>Netzwerknamen können nur A-Z, 0-9, _ und - beinhalten
+    und nicht über 20 Zeichen lang sein!
+select.noselection: <prefix><red>Kein Netzwerk wurde ausgewählt, bitte wähle ein Netzwerk
+    aus mit <white>/net select <network>
+select.success: <prefix>Netzwerk <green><1><white> wurde ausgewählt.
+invalidnetwork: <prefix><red>Es gibt kein Netzwerk mit dem Namen <white><1>
+permission.server: <prefix><red>Dieser Befehl ist nur für Server Administratoren verfügbar!
+permission.owner: <prefix><red>Du hast keine Berechtigung, dieses Netzwerk zu bearbeiten!\nDu
+    musst Netzwerkbesitzer oder Server Administrator sein!
+permission.user: <prefix><red>Du hast keine Rechte auf diesem Netzwerk!\nDu musst
+    Nutzer des Netzwerks sein!
+list.empty: <prefix>Du hast keine Netzwerke!
+list: '<prefix>Du hast Rechte auf diesen Netzwerken:'
+list.owned: '<prefix>Du besitzt diese Netzwerke:'
+list.foreign.empty: <prefix>Spieler <1> hat keine Netzwerke!
+list.foreign: '<prefix>Spieler <1> ist auf diesen Netzwerken hinzugefügt:'
+list.foreign.owned: '<prefix>Spieler <1> besitzt diese Netzwerke:'
+list.all.empty: <prefix>Auf diesem Server gibt es keine Netzwerke!
+list.all: '<prefix>Auf diesem Server gibt es folgende Netzwerke:'
+info.title: |4
+
+                  <bold><dark_green>Netzwerk Informationen
+    <reset><dark_green>=============================================
+info.name: 'Name:  <1>'
+info.owner: 'Besitzer: <1>'
+info.users: 'Nutzer: <1>'
+info.components.total: 'Komponenten: <1>'
+info.range: 'Maximale Reichweite: <1>'
+info.components.input: 'Einfüllkisten: '
+info.components.sorting: 'Sortierkisten: '
+info.components.misc: 'Restekisten: '
+component.input.add: <prefix>Einfüllkiste bei <1> wurde hinzugefügt zum Netzwerk <2>!
+component.sorting.add: <prefix>Sortierkiste bei <1> wurde hinzugefügt zum Netzwerk
+    <2>!
+component.sorting.setitem: <prefix>Item Typ <2> wurde als Filter für die Sortierkiste
+    bei <1> hinzugefügt.
+component.sorting.removeitem: <prefix>Item Typ <2> wurde als Filter für die Sortierkiste
+    bei <1> entfernt.
+component.misc.add: <prefix>Restekiste <1> wurde hinzugefügt zum Netzwerk <2>!
+component.remove: <prefix><red>Komponent bei <1> wurde entfernt.
+component.exploded: <prefix><dark_red>Komponent bei <white><1><dark_red> aus dem Netzwerk
+    <white><2><dark_red> wurde gesprengt!
+component.invalid_block: <prefix><red>Blöcke vom Typ </red><1><red> können keine Netzwerkkomponenten
+    sein!</red>
+component.nocomponent: <prefix><yellow>Dies ist kein Netzwerkkomponent!
+component.priority: <prefix>Priorität wurde auf <1> gesetzt,
+location.occupied: <prefix><red>There is already a component at this location!
+rangeupgrade.last: <prefix><yellow>Du hast bereits die höchste Stufe erreicht.
+rangeupgrade.alreadyupgraded: <prefix><yellow>Diese Erweiterung hast du bereits installiert,
+    die nächste Stufe ist <white>Telemetrie Antenne Mk.<1>
+rangeupgrade.unlockfirst: <prefix><yellow>Du musst zuerst Stufe <white><1><yellow>
+    freischalten!
+rangeupgrade.success: <prefix>Reichweite <1> wurde im Netzwerk <2> installiert!
+user.add: <prefix>Spieler <2> wurde zum Netzwerk <1> hinzugefügt
+user.remove: <prefix>Spieler <2> wurde aus dem Netzwerk <1> entfernt
+user.owner: <prefix>Spieler <1> ist nun Besitzer des Netzwerks <2>
+user.add.nochange: <prefix>Spieler <2> wurde bereits zum Netzwerk <1> hinzugefügt
+user.remove.nochange: <prefix>Spieler <2> war bereits kein Nutzer von <1>
+user.owner.nochange: <prefix>Spieler <2> ist bereits Besitzer von Netzwerk <1>
+merge.identical: <prefix><red>Tut mir leid, aber das ist leider nicht möglich
+merge.nopermission: <prefix><red>Zum Zusammenführen von zwei Netzwerken musst du beide
+    besitzen!
+merge.success: <prefix>Netzwerk <2> wurde in Netzwerk <1> integriert
+rename.success: <prefix>Netzwerk <1> wurde zu <2> umbenannt
+rename.taken: <prefix>Name <1> ist bereits in Verwendung.
+wand.mode: <prefix><blue>Konfigurator Modus wurde zu [<1>] geändert
+wand.mode.0: Filter
+wand.mode.1: Priorität
+wand.info.input: |
+    <green>Typ: <reset>Einfüllkiste<green>
+    Netzwerk: <reset><1><green>
+    Position: <reset><2><green>
+wand.info.sorting: |
+    <green>Typ: <reset>Sortierkiste<green>
+    Netzwerk: <reset><1><green>
+    Position: <reset><2><green>
+    Priorität: <reset><3><green>
+    Filter: <reset><4>
+wand.info.misc: |
+    <green>Typ: <reset>Restekiste<green>
+    Netzwerk: <reset><1><green>
+    Position: <reset><2><green>
+    Priorität: <reset><3><green>
+items.noitems: <prefix><red>In diesem Netzwerk sind noch keine Items.
+items.message: '<green><bold>Alle Items im Netzwerk <white><1><green>:'
+item.name.wand0: <reset><red>Netzwerk Konfigurator
+item.name.wand1: <reset><blue>Prioritäts Konfigurator
+item.name.input: <reset>Einfüllkiste
+item.name.sorting: <reset>Sortierkiste
+item.name.misc: <reset>Restekiste
+item.name.upgrade.range.0: <reset><bold>Telemetrie Antenne Mk.1
+item.name.upgrade.range.1: <reset><bold>Telemetrie Antenne Mk.2
+item.name.upgrade.range.2: <reset><bold>Telemetrie Antenne Mk.3
+item.name.upgrade.range.3: <reset><bold>Telemetrie Antenne Mk.4
+item.lore.wand0: ['<reset>Rechts klicke einen Netzwerkkomponenten, um Informationen
+        über diesen zu sehen', '<reset>Schleichen + Rechts klicken, um das in deiner
+        Zweithand liegende Item als Filter hinzuzufügen', '<reset>Schleichen + Links
+        klicken, um das in deiner Zweithand liegende Item als Filter zu entfernen',
+    '', '<reset>Links klicken, um den Modus zu wechseln']
+item.lore.wand1: ['<reset>Rechts klicke einen Netzwerkkomponenten, um Informationen
+        über diesen zu sehen', '<reset>Schleichen + Rechts klicken, um die Priorität
+        eines Komponenten zu erhöhen', '<reset>Schleichen + Links klicken, um die
+        Priorität eines Komponenten zu senken', '', '<reset>Links klicken, um den
+        Modus zu wechseln']
+item.lore.input: [<reset><blue>Sortiert eingelegte Items in Sortier- und Restekisten
+        ein]
+item.lore.sorting: ['<reset><blue>Akzeptiert nur Items, die dem Filter der Kiste entsprechen',
+    '', '<reset>Filter Items:']
+item.lore.misc: [<reset><blue>Alle übrigen items gehen in diese Kisten]
+item.lore.upgrade.range: ['<reset>Klicke hiermit auf einen Netzwerkkomponenten, um
+        diese Erweiterung zu installieren']
+notice: <yellow>Inventar Probleme? Probier mal <white>/networks <yellow>und erstelle
+    dein vollautomatisches Lagersystem!
+manual.help: "\n <bold><dark_green>            Manuals v1.0 - Hilfe Menü \n============================================</dark_green></bold>\
+    \ \n \n<click:suggest_command:/manuals list>/manuals list</click> - <yellow>Liste\
+    \ alle Handbücher auf</yellow> \n<click:suggest_command:/manuals read >/manuals\
+    \ read (id)</click> - <yellow>Öffne ein Handbuch</yellow> \n "
+manual.version: |-
+    <dark_green>Manuals</dark_green> von <yellow>Quantum625</yellow>
+    <aqua>Version: </aqua><1>
+manual.list: '<green>[Manuals]<reset>  Handbücher auf diesem Server:'
+manual.list.empty: <green>[Manuals]<reset>  Es gibt keine Handbücher auf diesem Server.
+manual.read: <green>[Manuals]<reset>  Handbuch <yellow><1></yellow> geöffnet.
